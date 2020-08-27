@@ -1,0 +1,7 @@
+.header {
+    position: fixed;
+    left: 180px;
+    top: 0;
+    width: 100%;
+    text-align: left;
+}
