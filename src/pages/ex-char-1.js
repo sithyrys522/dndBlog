@@ -3,10 +3,13 @@ import Container from "../components/container"
 import { Link } from "gatsby"
 import Footer from "../layouts/footer"
 import Header from "../layouts/header"
+import SideNav from "../layouts/sidenav"
+
 
 export default function TestPage() {
     return (
         <div>
+            <SideNav />
             <Header />
             <Container>
                 <p>Hi</p>
